@@ -1,0 +1,141 @@
+.main-header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--header-bg);
+}
+
+.top-bar {
+    background-color: var(--topbar-bg);
+    color: var(--white);
+    padding: 8px 0;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.top-bar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar-left a,
+.top-bar-right a {
+    letter-spacing: 0.1em;
+}
+
+.top-bar-center {
+    flex: 1;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.info-icon {
+    display: inline-flex;
+    width: 14px;
+    height: 14px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    margin-left: 5px;
+    font-style: italic;
+    font-family: serif;
+}
+
+.top-bar-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.country-selector {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.country-selector img {
+    border-radius: 2px;
+}
+
+.nav-bar {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.nav-bar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.promo-badge {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    padding: 8px 15px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.badge-count {
+    background-color: var(--white);
+    color: var(--primary-blue);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+}
+
+.shipping-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.cart-icon,
+.menu-icon {
+    cursor: pointer;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 30px;
+}
+
+.menu-icon .bar {
+    height: 2px;
+    background-color: var(--black);
+    width: 100%;
+}

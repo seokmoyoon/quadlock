@@ -1,0 +1,45 @@
+.app {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+.floating-promo-tab {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  transform-origin: left bottom;
+  background-color: var(--primary-blue);
+  color: var(--white);
+  padding: 8px 20px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  z-index: 100;
+  border-radius: 0 0 4px 4px;
+}
+
+.floating-chat {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: var(--primary-blue);
+  color: var(--white);
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 100;
+}
+
+.chat-icon {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,76 @@
+.sticky-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.05);
+    z-index: 2000;
+}
+
+.sticky-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sticky-product {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sticky-product img {
+    width: 40px;
+    height: 40px;
+}
+
+.p-label {
+    font-size: 10px;
+    font-weight: 800;
+    color: #888;
+}
+
+.sticky-actions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.sticky-price {
+    text-align: right;
+}
+
+.price-label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.amount {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.free-shipping {
+    font-size: 9px;
+    font-weight: 800;
+    color: #2e7d32;
+    margin-top: 2px;
+}
+
+.sticky-btn {
+    background-color: #aaa;
+    color: #fff;
+    padding: 15px 40px;
+    font-weight: 800;
+    border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+    .sticky-product {
+        display: none;
+    }
+}
